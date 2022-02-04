@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="color-scheme" content="light dark">
+        <meta name="theme-color" content="#FFFFFF">
+        <meta name="viewport" content="inital-scale=1, minimum-scale=1, width=device-width">
+        
+        <title>Rickroll détecté</title>
+
+        <link rel="stylesheet" type="text/css" href="src/page.css">
+    </head>
+    <body id="body">
+        <div class="interstitial-wrapper">
+            <div id="main-content">
+                <div class="icon" id="icon"></div>
+                <div id="main-message">
+                    <h1 id="detected-rickroll"></h1>
+                    <p id="detected-rickroll-text"></p>
+                    <div id="debugging">
+                        <div id="error-code" class="error-code"></div>
+                        <div id="error-debugging-info" class="hidden">
+                            <p class="debugging-content">
+                                <span class="debugging-title">Extension created by:</span>
+                                <span class="debugging-content">Micorksen</span>
+                            </p>
+                            <p class="debugging-content">
+                                <span class="debugging-title">GitHub:</span>
+                                <span class="debugging-content">@Micorksen</span>
+                            </p>
+                            <p class="debugging-content">
+                                <span class="debugging-title">Twitter:</span>
+                                <span class="debugging-content">@Micorksen</span>
+                            </p>
+                            <p class="debugging-content">
+                                <span class="debugging-title">Site:</span>
+                                <span class="debugging-content">micorksen.eu.org</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-wrapper">
+                <button id="return-to-safety">Revenir en lieu sûr</button>
+                <button id="proceed-button" class="secondary-button small-link hidden"></button>
+                <button id="details-button" class="secondary-button small-link" aria-expanded="false">Masquer les paramètres avancés</button>
+            </div>
+            <div id="details">
+                <p id="final-paragraph">
+                    <p id="rick"></p>
+                    <a id="proceed-link" class="small-link"></a>
+                </p>
+            </div>
+        </div>
+    </body>
+    <script id="translations" type="application/json">
+        {
+            "en-US": {
+                "detected-rickroll": "A rickroll has been detected",
+                "detected-rickroll-text": "People may be trying to make fun of you by using a rickroll on this site.",
+                "return-to-safety": "Return to safety",
+                "close-details": "Hide advanced settings",
+                "open-details": "Advanced settings",
+                "proceed-link": "Continue to the site {{ window.location_hash }}",
+                "rick": "In order to protect you from Rick Astley, we have blocked the page. If you still wish to access the site, click on the link below."
+            },
+            "fr-FR": {
+                "detected-rickroll": "Un rickroll a été détecté",
+                "detected-rickroll-text": "Des personnes tentent peut-être de se moquer de vous en utilisant un rickroll sur le site <strong>{{ window.location_hash }}</strong>.",
+                "return-to-safety": "Revenir en lieu sûr",
+                "close-details": "Masquer les paramètres avancés",
+                "open-details": "Paramètres avancés",
+                "proceed-link": "Continuer vers le site {{ window.location_hash }}",
+                "rick": "Afin de vous protéger de Rick Astley, nous avons bloqué la page. Si vous souhaitez toujours accèder au site, cliquez sur le lien ci-dessous."
+            }
+        }
+    </script>
+    <script type="text/javascript" src="src/jquery.js"></script>
+    <script type="text/javascript" src="src/page.js"></script>
+</html>
