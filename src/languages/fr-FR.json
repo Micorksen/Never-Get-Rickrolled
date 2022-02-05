@@ -1,0 +1,9 @@
+{
+    "detected-rickroll": "Un rickroll a été détecté",
+    "detected-rickroll-text": "Des personnes tentent peut-être de se moquer de vous en utilisant un rickroll sur le site <strong>{{ window.location_hash }}</strong>.",
+    "return-to-safety": "Revenir en lieu sûr",
+    "close-details": "Masquer les paramètres avancés",
+    "open-details": "Paramètres avancés",
+    "proceed-link": "Continuer vers le site {{ window.location_hash }}",
+    "rick": "Afin de vous protéger de Rick Astley, nous avons bloqué la page. Si vous souhaitez toujours accèder au site, cliquez sur le lien ci-dessous."
+}
