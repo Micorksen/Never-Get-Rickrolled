@@ -836,7 +836,7 @@ function setupEvents() {
           sendCommand(SecurityInterstitialCommandId.CMD_DONT_PROCEED);
           break;
         case 'BLOCKED_INTERCEPTION':
-          sendCommand(SecurityInterstitialCommandId.CMD_RELOAD);
+          history.back();
           break;
         default:
           throw 'Invalid interstitial type';
