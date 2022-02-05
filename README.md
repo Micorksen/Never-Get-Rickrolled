@@ -9,7 +9,7 @@ Download the source of extension.
 Follow the setup steps.
 
 ## 📜 | Setup
-Go to chrome://extensions and enable Developer mode.
+Go to <a href="chrome://extensions">chrome://extensions</a> and enable Developer mode.
 
 Unzip the ZIP file.
 
