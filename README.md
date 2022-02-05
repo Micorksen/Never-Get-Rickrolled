@@ -19,3 +19,8 @@ Now, click on "Load an unpackaged extension" and select the folder where the ZIP
 You can contribute for adding more links to block.
 
 Just fork the repository and add links to file `src/links.json` and do a pull request.
+
+## ℹ | Try it !
+Click this [link](https://never-gonna-give-you-up.com) and view the alert message.
+
+Click this [link](https://never-gonna-give-you-up.com/#rickroll-allowed) and ignore alert message.
