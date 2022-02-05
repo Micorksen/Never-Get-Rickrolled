@@ -100,5 +100,7 @@
   "https://www.youtube.com/watch?v=9FYOb8WPh20",
   "https://www.youtube.com/watch?v=wFfqzRwqwrs",
   "https://www.youtube.com/watch?v=UOd07nBVnwo",
-  "https://www.youtube.com/watch?v=rTgj1HxmUbg"
+  "https://www.youtube.com/watch?v=rTgj1HxmUbg",
+  "https://www.tomorrowtides.com/(.*)",
+  "https://www.theraleighregister.com/(.*)"
 ]
