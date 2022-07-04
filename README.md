@@ -4,4 +4,4 @@
 </div>
 
 ## 📂 | Equivalent
-Use my EasyList filter to avoid rickrolls (µBlock Origin, AdBlock Plus) : `https://uploads.micorksen.eu/files/rickroll-filter.txt`.
+Use my EasyList filter to avoid rickrolls (µBlock Origin, AdBlock Plus) : `https://uploads.micorksen.eu/files/rickroll-blocker.txt`.
